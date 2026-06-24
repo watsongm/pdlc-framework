@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+target/
+build/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Secrets — never commit these
+.env
+*.env.local
+secrets/
+**/application-local.yml
+**/application-secrets.yml
+
+# Harness local config
+.harness-local/
+
+# Agent run artifacts (local only)
+.agent-runs/
+.claude-sessions/
+
+# Generated reports (checked in per-product, not globally)
+*.tmp
